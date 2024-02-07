@@ -1,0 +1,27 @@
+- title: Home
+  url: "/"
+  side: left
+  dropdown:
+  - title: "Company Profile"
+    url: "/company/"
+
+- title: "Surface Finishing Solutions"
+  url: "/services/"
+  side: left
+  dropdown:
+  - title: "Passivation & Desmuting"
+    url: "/passivation-desmuting/"
+  - title: "Electropolishing"
+    url: "/elctropolishing/"
+  - title: "Cleansing & Degreasing"
+    url: "/cleansing-degreasing/"
+  - title: "Surface Finishing"
+    url: "/surface-finishing/"
+
+- title: "Consultants & Contractors"
+  url: "/consultants-contractors/"
+  side: left
+  
+- title: "Contact Us"
+  url: "/contact-us/"
+  side: left
