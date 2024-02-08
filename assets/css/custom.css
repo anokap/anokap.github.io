@@ -154,3 +154,38 @@ img {vertical-align: middle;}
 }
 
 /* Carousel Settings End */
+
+/* Main content settings Begin */
+
+.about-us-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 100px 10px 100px;
+}
+.about-us-content{
+  flex: 70%;
+}
+.about-us-content p{
+  font-size: 18px;
+}
+.about-us-nav{
+  flex: 30%;
+  text-align: right;
+  margin-top: 70px;
+}
+.about-us-nav button{
+  border-radius: 5px;
+}
+.about-us-nav button a{
+  color: white;
+  border-radius: 5px;
+}
+.about-us-nav button a:hover{
+  color: white;
+}
+
+#up-to-top {
+  padding: 0px 0 10px 0 !important;
+}
+/* Main content settings End */
