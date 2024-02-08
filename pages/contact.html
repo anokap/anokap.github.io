@@ -1,0 +1,43 @@
+---
+layout              : page
+title               : "Contact"
+teaser              : Get in touch today, we’re always happy to help! Send us your comments or request a quote here
+meta_title          : "Contact and use our contact form"
+permalink           : "/contact-us/"
+---
+<style>
+    @media only screen and (min-width: 40.063em){
+    .medium-offset-2 {
+        margin-left: 1.666667% !important;
+    }
+}
+.teaser{
+    font-size: 1.1em;
+}
+.contact-info{
+    margin-top: 200px;
+}
+</style>
+<div class="contact-container">
+    <div class="contact-form">
+        <form action="/action_page.php">
+            <label for="name"><b>Name*</b></label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required>
+        
+            <label for="email"><b>Email*</b></label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address.." required>
+        
+            <label for="enquiry"><b>Nature of your Enquiry*</b></label>
+            <input type="text" id="enquiry" name="enquiry" placeholder="Enter Enquiry.." required>
+        
+            <label for="subject"><b>Comment</b></label>
+            <textarea id="subject" name="subject" placeholder="Write a comment.." style="height:200px" required></textarea>
+        
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+    <div class="contact-info">
+        <span><i style="font-size: 20px;" class="fas fa-at"></i></span><span>        </span><a href="mailto:sales@anokap.com">sales@anokap.com</a>
+        <p><i>Send us an e-mail or use the contact form on this page</i></p>
+    </div>
+</div>
