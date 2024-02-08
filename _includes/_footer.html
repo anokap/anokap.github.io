@@ -1,6 +1,6 @@
     <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
-        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+        <a class="iconfont" href="#top-of-page"><i class="fas fa-arrow-up"></i></a>
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
@@ -10,15 +10,16 @@
         <div class="row">
           <div class="medium-6 large-5 columns">
             <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
-
+            <br>
             <p class="shadow-black">
-              {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+              {{ site.data.custom_yaml.description }}
+              <p>{{ site.data.custom_yaml.links }}</p>
+
             </p>
           </div><!-- /.large-6.columns -->
 
 
-          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+          <!-- <div class="small-6 medium-3 large-3 large-offset-1 columns">
             {% for service_item in site.data.services %}
               {% if forloop.first == true %}
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
@@ -33,10 +34,10 @@
                   </li>
               {% endfor %}
               </ul>
-          </div><!-- /.large-4.columns -->
+          </div> -->
 
 
-          <div class="small-6 medium-3 large-3 columns">
+          <!-- <div class="small-6 medium-3 large-3 columns">
             {% for network_item in site.data.network %}
               {% if forloop.first == true %}
                 <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
@@ -51,22 +52,21 @@
                 </li>
             {% endfor %}
             </ul>
-          </div><!-- /.large-3.columns -->
+          </div>/.large-3.columns -->
         </div><!-- /.row -->
 
       </div><!-- /#footer -->
 
-
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
+            {{ site.data.custom_yaml.credits }}
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
             <ul class="inline-list social-icons">
             {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+              <li><a href="{{ social_item.url }}" style="color: #{{social_item.color}} !important; padding-top: 10px; width: 40px; height: 40px;" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
             </ul>
           </section>
