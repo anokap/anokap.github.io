@@ -1,3 +1,291 @@
+/* Responsive design Mobile - Begin */
+
+@media only screen and (max-width: 42em) {
+  /* Custom header section beginning */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  padding: 10px !important;
+  background-color:#2e3438;
+  border-bottom: 2px solid #1c28c9;
+}
+.logo-container {
+  grid-column: 1;
+}
+.logo-image{
+  width: 125px !important;
+  height: auto;
+  margin-top: 30px !important;
+}
+.search {
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.search button{
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: -150px;
+}
+.search button a{
+  color: white;
+}
+.search-header{
+  width: 150px;
+}
+
+.gif-container {
+  grid-column: 4;
+}
+.logo-gif{
+  width: 80px !important;
+  height: auto;
+}
+.top-bar .name h1 a{
+  display: none ;
+}
+#navigation{
+  margin: 10px 100px 20px 100px;
+  background-color: #1d2023;
+  box-shadow: 0px 0px 0px black;
+}
+.text{
+  display: none;
+}
+.dot {
+  width: 10px;
+  height: auto;
+  }
+.top-bar-section ul li {
+background: #3c3c3a !important;
+}
+/* Custom header section end */
+
+
+/* Carousel Settings Begin */
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 70%;
+position: relative;
+margin: auto;
+box-shadow: 10px 10px 20px grey;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 10px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+background-color: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+color: white;
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/13 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 42em) {
+.prev, .next,.text {font-size: 11px}
+}
+/* Caption text */
+.text {
+color: #f2f2f2;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+background-color: #323232;
+opacity: 0.9;
+}
+
+/* Carousel Settings End */
+
+/* Main content settings Begin */
+
+.about-us-container{
+display: flex;
+flex-direction: column !important;
+justify-content: center;
+padding: 10px 80px 10px 60px;
+}
+.about-us-content{
+flex: 70%;
+}
+.about-us-content h2{
+  font-size: 25px;
+}
+.about-us-content p{
+font-size: 18px;
+}
+.about-us-nav{
+flex: 30%;
+text-align: right;
+margin-top: 70px;
+}
+.about-us-nav button{
+border-radius: 5px;
+}
+.about-us-nav button a{
+color: white;
+border-radius: 5px;
+}
+.about-us-nav button a:hover{
+color: white;
+}
+
+#up-to-top {
+padding: 0px 0 10px 0 !important;
+}
+/* Main content settings End */
+
+
+/* Footer redesign Begin */
+#footer a{
+color: blue !important;
+font-size: 15px;
+}
+#subfooter a{
+color: rgb(7, 154, 154);
+}
+/* Footer redesign End */
+
+/* Contact form design begin */
+
+.contact-container{
+display: flex;
+flex-direction: row;
+width: 100%;
+column-gap: 0px;
+}
+input[type=text], select, textarea { 
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #132720;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type=submit]:hover {
+background-color: #000000;
+}
+input[type=submit]:hover {
+background-color: #343232;
+}
+
+.contact-form {
+border-radius: 5px;
+padding: 20px;
+width: 30em;
+flex: 70%;
+}
+.contact-info{
+flex: 30%;
+margin-top: 200px;
+}
+.contact-info a{
+color: rgb(40, 174, 174);
+}
+.contact-info p{
+font-weight: bold;
+}
+/* Contact form design End */
+
+/* image-category and gallery  begin */
+.image-category{
+width: 500px;
+height: auto;
+}
+.image-wrapper {
+display: grid;
+grid-template-columns: repeat(2, 1fr) !important; /* 5 columns */
+grid-template-rows: repeat(2, auto); /* 2 rows */
+gap: 10px; /* Adjust gap between images */
+}
+
+.image-gallery {
+width: 300px; /* Ensure images fill their grid cells */
+height: 150px; /* Maintain aspect ratio */
+object-fit: cover; /* Crop images to fit */
+
+}
+
+.text-center {
+  text-align: center !important;
+  margin-bottom: 20px !important;
+}
+/* Responsive Design - Mobile End */
+
+/* image-category and gallery end */
+}
 /* Custom header section beginning */
 .grid-container {
     display: grid;
@@ -254,3 +542,25 @@ input[type=submit]:hover {
   font-weight: bold;
 }
 /* Contact form design End */
+
+/* image-category and gallery  begin */
+.image-category{
+  width: 500px;
+  height: auto;
+}
+.image-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  gap: 10px; /* Adjust gap between images */
+}
+
+.image-gallery {
+  width: 200px; /* Ensure images fill their grid cells */
+  height: 150px; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop images to fit */
+
+}
+
+
+/* image-category and gallery end */

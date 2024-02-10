@@ -10,8 +10,8 @@ header:
 
 widget1:
   title: "Stainless Steel Services"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: anokap_project_willowchem_pharmaceutical_pressure_valves.jpg
+  url: '/internal-electropolishing'
+  image: https://www.anokap.com/work/internal-electropolishing/
   text: '<h5>Internal Electropolishing:</h5> 
   <hr>
   Consult & Advise for Large Pharmaceutical Pressure Vessels Since being ready and open for business back in October 2007 the client had increased from strength to strength and under the guidance of Anokap Solutions had been busy chemically and electrochemically processing all sorts of fabrications, components and assemblies. Over this progressive period many of the […]'
