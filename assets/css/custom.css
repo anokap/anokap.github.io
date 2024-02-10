@@ -40,8 +40,7 @@
   grid-column: 4;
 }
 .logo-gif{
-  width: 80px !important;
-  height: auto;
+  display: none;
 }
 .top-bar .name h1 a{
   display: none ;
@@ -164,7 +163,7 @@ opacity: 0.9;
 display: flex;
 flex-direction: column !important;
 justify-content: center;
-padding: 10px 80px 10px 60px;
+padding: 10px 10px 10px 15px !important;
 }
 .about-us-content{
 flex: 70%;
