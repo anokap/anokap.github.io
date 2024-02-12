@@ -335,6 +335,19 @@ object-fit: cover; /* Crop images to fit */
 .top-bar-section ul li {
   background: #3c3c3a !important;
 }
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  padding: 0 1.0416666667rem;
+  line-height: 3.125rem;
+  color: #fff;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover{background-color:#000000; color: white !important;}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 1.0416666667rem;
+  line-height: 3.125rem;
+  background: #393939;
+  color: white;
+}
 /* Custom header section end */
 
 
