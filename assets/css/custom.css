@@ -292,7 +292,7 @@ object-fit: cover; /* Crop images to fit */
     gap: 10px;
     padding: 10px 100px 10px 100px;
     background-color:#2e3438;
-    border-bottom: 2px solid #1c28c9;
+    border-bottom: 2px solid linear-gradient(to right, rgba(202, 17, 17, 0.97), rgb(12, 59, 228));
   }
   .logo-container {
     grid-column: 1;
