@@ -590,3 +590,13 @@ input[type=submit]:hover {
 .top-bar .name h1 a{
   display: none ;
 }
+
+
+/* Navigation tab Begins */
+.w3-black{
+  margin: 50px 200px 0px 200px;
+}
+.tabs-content{
+  margin: 0px 200px 0px 200px;
+}
+/* Navigation tab Ends */

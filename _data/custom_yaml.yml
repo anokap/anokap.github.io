@@ -6,3 +6,44 @@ description: Anokap Solutions (Thailand) Co., Ltd.
 links:      <a href="mailto:info@anokap.com">info@anokap.com</a>   |   <a href="mailto:info@anokap.com">info@anokap.com</a>
 
 credits:    2024 Anokap all rights reserved. <a href="https://www.anokap.com">anokap.com</a>
+
+first-tabs: Stainless Steel Services
+
+tab_1:
+  - img: 
+  - teaser: Internal Electropolishing
+  - content: <p> Consult & Advise for Large Pharmaceutical Pressure Vessels Since being ready and open for business back in October 2007 the client had increased from strength to strength and under the guidance of Anokap Solutions had been busy chemically and electrochemically processing all sorts of fabrications, components and assemblies. Over this progressive period many of the […] </p>
+  - url: "/internal-electropolishing"
+
+second-tabs: Anokap - Company
+
+tab_2:
+  - img: 
+  - teaser: Anokap Solutions Co., Ltd.
+  - content: <p>Cleaning, Pickling, Electropolishing & Passivation of Stainless Steel are some of the most commonly requested specialist technical services provided by Anokap Solutions Co., Ltd. </p>
+
+             <p>Formed in 2006 in Asia to meet the demands of a diversified market, today we offer a wide range of services and products through a coordinated network of partners, associates and strategic alliances that stretch around the globe. This international approach to business gives us an enormous strength and a competitive edge through the efficient use of resources on hand and the specialist skills and expertise at our disposal, making us a "one of kind" in a unique new concept to meeting the demands of an ever-developing market. </p>
+
+             <p>Our core business is in the chemical and electro-chemical methods, techniques, processes and associated equipment for high quality stainless steel surfaces and alloyed substrates... […] </p>
+  - url: "/company"
+
+third-tabs: Industrial Sectors
+
+tab_3:
+  - img: 
+  - teaser: Industrial Sectors
+  - content: 'Oil & Gas |
+              Power Plant |
+              High Vacuum |
+              Architectural |
+              Semiconductor |
+              Civil Applications |
+              Food & Beverage |
+              Surgical & Medical |
+              Automotive & Marine | 
+              Paper & Pulp Technology |
+              Jewellery & HouseWares |
+              Pharmaceutical & Biochemical |
+              Filtration & Liquid Conveyance |
+              Aviation'
+  - url: "/"

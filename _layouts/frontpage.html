@@ -12,24 +12,53 @@ format: frontpage
 
 {% include _about-us-home.html %}
 
-{% comment %}
-*
-* First check, if widget is empty or not by checking if there is a title
-*
-{% endcomment %}
-<div class="row t60">
-	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
-	{% endif %}
-
-	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
-	{% endif %}
-
-	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
-	{% endif %}
-</div><!-- /.row -->
 
 
+<style>
+
+</style>
+<div class="w3-bar w3-black">
+	<button class="w3-bar-item w3-button" onclick="openCity('London')">{{site.data.custom_yaml.first-tabs}}</button>
+	<button class="w3-bar-item w3-button" onclick="openCity('Paris')">{{site.data.custom_yaml.second-tabs}}</button>
+	<button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">{{site.data.custom_yaml.third-tabs}}</button>
+</div>
+
+<div class="tabs-content">
+  <div id="London" class="w3-container city">
+		<img style="width: 200px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
+{% for first in site.data.custom_yaml.tab_1 %}
+		<h3>{{first.teaser}}</h3>
+{% endfor %}
+		<hr style="border: 2px solid black;">
+{% for first in site.data.custom_yaml.tab_1 %}
+		{{first.content}}
+{% endfor %}
+  </div>
+
+  <div id="Paris" class="w3-container city" style="display:none">
+	<img style="width: 200px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
+	{% for first in site.data.custom_yaml.tab_1 %}
+			<h3>{{first.teaser}}</h3>
+	{% endfor %}
+			<hr style="border: 2px solid black;">
+	{% for first in site.data.custom_yaml.tab_1 %}
+			{{first.content}}
+	{% endfor %}
+	  </div>
+  </div>
+
+
+
+  <div id="Tokyo" class="w3-container city" style="display:none">
+	<img style="width: 200px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
+	{% for first in site.data.custom_yaml.tab_1 %}
+			<h3>{{first.teaser}}</h3>
+	{% endfor %}
+			<hr style="border: 2px solid black;">
+	{% for first in site.data.custom_yaml.tab_1 %}
+			{{first.content}}
+	{% endfor %}
+	  </div>
+  </div>
+</div>
 
