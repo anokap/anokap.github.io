@@ -46,7 +46,7 @@
   display: none ;
 }
 #navigation{
-  margin: 10px 100px 20px 100px;
+  margin: 10px 0px 20px 0px !important;
   background-color: #1d2023;
   box-shadow: 0px 0px 0px black;
 }
@@ -334,9 +334,13 @@ object-fit: cover; /* Crop images to fit */
     background-image: linear-gradient(to right, rgba(202, 17, 17, 0.97), rgb(12, 59, 228));
   }
 #navigation{
-    margin: 10px 100px 20px 100px;
+    margin: -20px 0px 0px 0px;
     background-color: #1d2023;
     box-shadow: 0px 0px 0px black;
+}
+.top-bar {
+  background: #393939;
+  overflow: visible;
 }
 .top-bar-section ul li {
   background: #3c3c3a !important;
