@@ -25,7 +25,9 @@ format: frontpage
 
 <div class="tabs-content">
   <div id="London" class="w3-container city">
-		<img style="width: 200px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
+
+	<img style="width: 350px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
+
 {% for first in site.data.custom_yaml.tab_1 %}
 		<h3>{{first.teaser}}</h3>
 {% endfor %}
@@ -33,32 +35,32 @@ format: frontpage
 {% for first in site.data.custom_yaml.tab_1 %}
 		{{first.content}}
 {% endfor %}
+<a href="/internal-electropolishing"><button>More <i class="fas fa-long-arrow-alt-right"></i></button></a>
   </div>
 
   <div id="Paris" class="w3-container city" style="display:none">
-	<img style="width: 200px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
-	{% for first in site.data.custom_yaml.tab_1 %}
-			<h3>{{first.teaser}}</h3>
-	{% endfor %}
-			<hr style="border: 2px solid black;">
-	{% for first in site.data.custom_yaml.tab_1 %}
-			{{first.content}}
-	{% endfor %}
-	  </div>
+
+{% for second in site.data.custom_yaml.tab_2 %}
+	<h3>{{second.teaser}}</h3>
+{% endfor %}
+	<hr style="border: 2px solid black;">
+{% for second in site.data.custom_yaml.tab_2 %}
+	{{second.content}}
+{% endfor %}
+<a href="/company"><button>More <i class="fas fa-long-arrow-alt-right"></i></button></a>
   </div>
 
 
 
   <div id="Tokyo" class="w3-container city" style="display:none">
-	<img style="width: 200px; height: 200px;" src="{{site.url}}/{{site.baseurl}}/images/anokap_project_willowchem_pharmaceutical_pressure_valves.jpg" alt="">
-	{% for first in site.data.custom_yaml.tab_1 %}
-			<h3>{{first.teaser}}</h3>
-	{% endfor %}
+{% for third in site.data.custom_yaml.tab_3 %}
+			<h3>{{third.teaser}}</h3>
+{% endfor %}
 			<hr style="border: 2px solid black;">
-	{% for first in site.data.custom_yaml.tab_1 %}
-			{{first.content}}
-	{% endfor %}
-	  </div>
+{% for third in site.data.custom_yaml.tab_3 %}
+			{{third.content}}
+{% endfor %}
+
   </div>
 </div>
 

@@ -10,7 +10,6 @@ credits:    2024 Anokap all rights reserved. <a href="https://www.anokap.com">an
 first-tabs: Stainless Steel Services
 
 tab_1:
-  - img: 
   - teaser: Internal Electropolishing
   - content: <p> Consult & Advise for Large Pharmaceutical Pressure Vessels Since being ready and open for business back in October 2007 the client had increased from strength to strength and under the guidance of Anokap Solutions had been busy chemically and electrochemically processing all sorts of fabrications, components and assemblies. Over this progressive period many of the […] </p>
   - url: "/internal-electropolishing"
@@ -18,7 +17,6 @@ tab_1:
 second-tabs: Anokap - Company
 
 tab_2:
-  - img: 
   - teaser: Anokap Solutions Co., Ltd.
   - content: <p>Cleaning, Pickling, Electropolishing & Passivation of Stainless Steel are some of the most commonly requested specialist technical services provided by Anokap Solutions Co., Ltd. </p>
 
@@ -30,7 +28,6 @@ tab_2:
 third-tabs: Industrial Sectors
 
 tab_3:
-  - img: 
   - teaser: Industrial Sectors
   - content: 'Oil & Gas |
               Power Plant |

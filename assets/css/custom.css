@@ -281,6 +281,23 @@ object-fit: cover; /* Crop images to fit */
   text-align: center !important;
   margin-bottom: 20px !important;
 }
+
+/* Navigation tab Begins */
+.w3-black{
+  margin: 50px 15px 0px 15px !important;
+  display: flex;
+  flex-direction: row;
+}
+.w3-black button{
+  font-size: 13px !important;
+}
+.tabs-content{
+  margin: 0px 40px 0px 40px !important;
+}
+.tabs-content p{
+  font-size: 14px !important;
+}
+/* Navigation tab Ends */
 /* Responsive Design - Mobile End */
 
 /* image-category and gallery end */
@@ -598,5 +615,8 @@ input[type=submit]:hover {
 }
 .tabs-content{
   margin: 0px 200px 0px 200px;
+}
+.tabs-content p{
+  font-size: 17px;
 }
 /* Navigation tab Ends */
