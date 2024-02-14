@@ -45,6 +45,11 @@
 .top-bar .name h1 a{
   display: none ;
 }
+.top-bar {
+  background: #ffffff;
+  overflow: hidden;
+  margin-top: -20px;
+}
 #navigation{
   margin: 10px 0px 20px 0px !important;
   background-color: #1d2023;
