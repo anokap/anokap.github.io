@@ -69,7 +69,7 @@ background: #3c3c3a !important;
 
 
 /* Carousel Settings Begin */
-.mySlides {display: none}
+.mySlides {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -78,6 +78,7 @@ max-width: 95% !important;
 position: relative;
 margin: auto;
 box-shadow: 10px 10px 20px grey;
+
 }
 
 /* Next & previous buttons */
@@ -375,7 +376,7 @@ object-fit: cover; /* Crop images to fit */
 .top-bar-section li:not(.has-form) a:not(.button):hover{  padding: 0 6.0416666667rem; background-color:#000000; color: white !important;}
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-  padding: 0 6.0416666667rem;
+  padding: 0 5.0416666667rem;
   line-height: 3.125rem;
   background: #393939;
   color: white;
@@ -392,6 +393,7 @@ img {vertical-align: middle;}
   max-width: 70%;
   position: relative;
   margin: auto;
+  margin-top: 50px;
   box-shadow: 10px 10px 20px grey;
 }
 
@@ -625,3 +627,26 @@ input[type=submit]:hover {
   font-size: 17px;
 }
 /* Navigation tab Ends */
+
+
+/* Tablet */
+.top-bar {
+  background: #ffffff !important;
+  overflow: hidden !important;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 64em) {
+  .w3-black{
+    margin: 50px 0px 0px 20px !important;
+    display: flex;
+    flex-direction: row !important;
+  }
+  .tabs-content{
+    margin: 0px 40px 0px 40px !important;
+  }
+  .tabs-content p{
+    font-size: 14px !important;
+  }
+}
+
