@@ -1,15 +1,15 @@
 version: "3.5"
 
 services:
-  jekyll-text-theme_dev:
+ anokap:
     build:
       context: .
       dockerfile: Dockerfile.dev
     environment:
       - JEKYLL_ENV=dev
     ports:
-      - 4000:4000
-    container_name: jekyll-TeXt-theme_dev
+      - 4001:4000
+    container_name: anokap
     volumes:
       - .:/usr/src/app
     stdin_open: true
