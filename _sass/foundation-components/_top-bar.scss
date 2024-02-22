@@ -157,6 +157,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       height: $topbar-height;
       line-height: $topbar-height;
       position: relative;
+      background: #393939;
       background: $topbar-bg;
       margin-bottom: $topbar-margin-bottom;
 
